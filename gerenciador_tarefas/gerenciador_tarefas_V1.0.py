@@ -1,3 +1,5 @@
+# teste
+
 class Tarefa:
 
     def __init__(self,lista_tarefas,titulo,descricao,status):
@@ -27,6 +29,7 @@ Tarefa.criar_tarefa(lista_tarefas,'Comprar pão','5 pães doces')
 
 def iniciar():
     print('Bem vindo ao gerenciador de tarefas!\n\n1. Adicionar Tarefa \n2. Listar Tarefas\n3. Marcar Tarefa como Concluída\n4. Remover Tarefa \n5. Sair\n')
+    print('Teste')
     escolha = 0
 
     while escolha != 5:
